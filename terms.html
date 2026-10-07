@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms - Hari Seldon Alerts</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: one narrow column, a plain notice page; the SMS sample is the only set-off object */
+:root{
+  --bg:#f6f7f5; --fg:#1d2422; --muted:#5a6662; --rule:#d6dcd8; --accent:#2f6b5a; --bubble:#e3ece8;
+  --display:"Fraunces",Georgia,serif; --body:"Source Sans 3",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141917;--fg:#e4ebe7;--muted:#9aa8a2;--rule:#2c3532;--accent:#7cc2ab;--bubble:#1f2a26;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141917;--fg:#e4ebe7;--muted:#9aa8a2;--rule:#2c3532;--accent:#7cc2ab;--bubble:#1f2a26;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:17px/1.6 var(--body)}
+main{max-width:40rem;margin:0 auto;padding-inline:20px;padding-block:48px 64px;display:grid;gap:32px}
+h1{font:600 2.2rem/1.15 var(--display);margin:0;text-wrap:balance}
+h2{font:600 1.15rem/1.3 var(--body);margin:0 0 6px;color:var(--accent);letter-spacing:.02em}
+p{margin:0}
+.lede{color:var(--muted);margin-top:10px}
+section{border-top:1px solid var(--rule);padding-top:20px;min-width:0}
+.sms{background:var(--bubble);border-radius:14px 14px 14px 4px;padding:14px 16px;font:15px/1.5 var(--mono);margin-top:10px;max-width:30rem;overflow-wrap:anywhere}
+dl{display:grid;grid-template-columns:max-content 1fr;gap:6px 18px;margin:8px 0 0}
+dt{color:var(--muted)} dd{margin:0;font-variant-numeric:tabular-nums;min-width:0;overflow-wrap:anywhere}
+code{font-family:var(--mono);font-size:.95em}
+footer{color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<main>
+<header><h1>Terms of Service</h1><p class="lede">Hari Seldon Alerts · effective October 7, 2026</p></header>
+<section><h2>The service</h2><p>Hari Seldon Alerts sends account notifications by text message to its owner, Janette Warner, about her own brokerage positions: for example when a stop order fills or a position needs her decision.</p></section>
+<section><h2>Consent</h2><p>The recipient is the account owner, who set up the service and agreed to receive these messages at her own mobile number.</p></section>
+<section><h2>Frequency and cost</h2><p>Message frequency varies, about 10 messages a month. Message and data rates may apply.</p></section>
+<section><h2>Stopping and help</h2><p>Reply STOP to cancel. Reply HELP for help. Reply START to resume. Carriers are not liable for delayed or undelivered messages.</p></section>
+<section><h2>Contact</h2><p>Janette Warner · thegirlfromys@gmail.com</p></section>
+<footer><a href="index.html">Hari Seldon Alerts</a></footer>
+</main>
+</body>
+</html>
